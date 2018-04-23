@@ -1,0 +1,17 @@
+{
+  "name": "github-cli",
+  "version": "1.0.0",
+  "description": "My first JavaScript CLI",
+  "main": "./src/index.js",
+  "repository": "https://github.com/vuyo97/github-cli.git",
+  "author": "vuyo",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "clear && node ./src/index.js",
+    "build": "cp ./src/index.js ./build/index.min.js",
+    "bash": "~/repo/run.sh"
+  },
+  "dependencies": {
+    "github-api": "^3.0.0"
+  }
+}
