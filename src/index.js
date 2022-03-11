@@ -22,7 +22,7 @@ prompt.get(['username','password'], function (err, { username, password }) {
 
 	const gh = new GitHub({
 		username: 'vuyo97',
-		password: '7Xhamfu!'
+		password: ''
 	});
 
 	console.log({ gh });
